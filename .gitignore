@@ -1,0 +1,9 @@
+# ignore local env files and secrets
+.env
+.env.local
+.env.*.local
+
+# node modules / build artifacts
+node_modules/
+dist/
+build/

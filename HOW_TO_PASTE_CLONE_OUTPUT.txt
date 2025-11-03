@@ -1,0 +1,26 @@
+What to run (example):
+  git clone --mirror https://github.com/<your-username>/<your-repo>.git spotify-growth-dashboard-mirror.git
+
+How to capture output:
+  - Windows PowerShell: run the command and copy the entire output from the terminal.
+  - Git Bash / macOS / Linux: run the command, then select and copy the terminal output.
+
+If your command includes a token, replace it before pasting:
+  https://<TOKEN>@github.com/your-username/your-repo.git  =>  https://<REDACTED>@github.com/your-username/your-repo.git
+
+Paste here (exactly) both items:
+1) The exact repo URL you used (copy-paste the URL only):
+   e.g. https://github.com/nifrmp/spotify-growth-dashboard.git
+
+2) The full terminal output you got when running the clone (copy-paste all lines).
+   If you saw 'Repository not found' include the full clone command you ran.
+
+Optional helpful context:
+ - Is the repo public or private?
+ - Are you authenticated (SSH key, GitHub CLI, or username/password/PAT)?
+ - Which OS/terminal did you use? (PowerShell, Git Bash, macOS Terminal)
+
+After you paste the URL and terminal output (redacting any tokens), I will:
+ - Point out typos in the URL or permission issues.
+ - Tell you the exact commands to run next and whether to use SSH or HTTPS.
+ - If needed, provide guidance to install git-filter-repo or use BFG and the correct mirror workflow.
